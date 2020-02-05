@@ -1,0 +1,104 @@
+body{
+  background: rgb(240,240,240);
+  color: rgb(30,30,30);
+}
+
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul{
+  padding-left: 0px;
+}
+
+i{
+  color: rgb(170, 170, 170);
+}
+
+i:hover{
+  color: rgb(20,20,20);
+}
+
+.image-round{
+  margin: 5px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.text-red-bold{
+  color: #af460f;
+  font-weight: bold;
+}
+
+.text-light-red-light{
+  color: #fe8761;
+  font-weight: lighter;
+}
+
+.card{
+  margin: 30px;
+  background: white;
+  text-align: center;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 35px rgba(0,0,0,0.1);
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 940px) {
+  .container{
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container{
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container{
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+.button-light-red{
+  margin: 10px;
+  background: #fe8761;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.button-light-red:hover{
+  font-size: 17px;
+}
+
+.inline-list > li{
+  font-size: 50px;
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#follow_me{
+  padding: 30px;
+}
